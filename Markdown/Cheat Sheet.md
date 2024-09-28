@@ -1,4 +1,4 @@
-# 📋 Markdown Cheat Sheet
+# 📋 Markdown Cheat Sheet!
 
 ## 1. 見出し (Headings)
 
@@ -8,51 +8,87 @@
 
 ---
 
-## 2. 強調 (Emphasis)
+## 2. 改行(Line break)
+文末で半角スペースを  
+2つ入力すると改行される
 
-**太字**  
-*斜体*  
+## 3. 強調 (Emphasis)
+
+*斜体*
+**太字**
+***斜体&太字***
 ~~取り消し線~~
 
 ---
 
-## 3. リスト (Lists)
+## 4. リスト (Lists)
 
-### 3.1. 番号なしリスト (Unordered list)
+### 4.1. 番号なしリスト (Unordered list)
 
-- アイテム1
-  - サブアイテム
-- アイテム2
+- text1
+  - text1-1
+- text2
 
-### 3.2. 番号付きリスト (Ordered list)
+### 4.2. 番号付きリスト (Ordered list)
 
-1. アイテム1
-2. アイテム2
-   1. サブアイテム1
-   2. サブアイテム2
+1. text1
+2. text2
+   1. text2-1
+   2. text2-2
 
 ---
 
-## 4. リンク & 画像 (Links & Images)
+## 5. リンク & 画像 (Links & Images)
 
 [Markdown Guide](https://www.markdownguide.org)  
 ![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
 ---
 
-## 5. コードブロック (Code Blocks)
+## 6. インライン表示 (Code)
 
-`インラインコード`
+`インライン`表示
 
-## 6. 引用 (Blockquote)
+---
+
+## 7. コードブロック (Code blocks)
+
+```
+console.log('Hello, World!');
+```
+
+---
+
+## 8. 引用 (Blockquote)
 > 引用文
 
-## 7. テーブル(Tables)
+---
+
+## 9. テーブル(Tables)
 | 見出し1 | 見出し2 |
 | ------- | ------- |
 | 内容1  | 内容2  |
 | 内容3  | 内容4  |
 
-## 8. チェックリスト(Task Lists)
+---
+
+## 10. チェックリスト(Task lists)
 - [x] 完了した項目
 - [ ] 未完了の項目
+
+---
+
+## 11. 水平線(Horizontal rule)
+---
+***
+___
+
+---
+
+## 12. 脚注(Footnote)
+[^1]これは脚注です
+
+---
+
+## 13. ハイライト(Highlight)
+大事な部分に==ハイライト==をします
