@@ -41,12 +41,8 @@
 ---
 
 ## 5. コードブロック (Code Blocks)
-console.log('Hello, World!');
 
 `インラインコード`
-
-```javascript
-console.log('Hello, World!');
 
 ## 6. 引用 (Blockquote)
 > 引用文
@@ -57,9 +53,6 @@ console.log('Hello, World!');
 | 内容1  | 内容2  |
 | 内容3  | 内容4  |
 
-## 8. 区切り線(Horizontal Rule)
----
-
-## 9. チェックリスト(Task Lists)
+## 8. チェックリスト(Task Lists)
 - [x] 完了した項目
 - [ ] 未完了の項目
