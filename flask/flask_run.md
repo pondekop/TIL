@@ -1,0 +1,10 @@
+FLASK_APP=app  
+FLASK_ENV=development の後に
+flask runをすると
+```
+* Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+```
+と出てくるが、これは*「開発サーバーであり、実稼働環境では使用しないでください」*といった内容の警告メッセージで、プログラム上の仕様なので問題なし。
