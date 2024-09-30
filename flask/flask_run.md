@@ -8,3 +8,11 @@ WARNING: This is a development server. Do not use it in a production deployment.
 Press CTRL+C to quit
 ```
 と出てくるが、これは*「開発サーバーであり、実稼働環境では使用しないでください」*といった内容の警告メッセージで、プログラム上の仕様なので問題なし。
+
+---
+
+変更が即時更新されない場合、
+```
+flask run --debug
+```
+でデバッグモードをオンにすることで変更を即時反映することができる。
