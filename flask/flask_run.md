@@ -16,3 +16,19 @@ Press CTRL+C to quit
 flask run --debug
 ```
 でデバッグモードをオンにすることで変更を即時反映することができる。
+
+---
+
+```
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+```
+ここのWorldに入る文字列(XX)をURLの末尾から自動で`Hello, XX!`として返すようにしたい
+
+```
+@app.route("/<name>")
+def hello(name):
+    return "<p>Hello, { name }!</p>"
+```
+これによってURLの末尾を変えることで自動で表示される名前が変わる
