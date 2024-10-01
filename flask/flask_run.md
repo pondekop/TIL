@@ -1,3 +1,4 @@
+ .venv\Scripts\activate でアクティベートしたあと  
 FLASK_APP=app  
 FLASK_ENV=development の後に
 flask runをすると
