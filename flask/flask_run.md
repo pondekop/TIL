@@ -34,3 +34,6 @@ def hello(name):
     return "<p>Hello, { name }!</p>"
 ```
 これによってURLの末尾を変えることで自動で表示される名前が変わる
+
+---
+'sha256'はエラーが起きるので'pbkdf2:sha256'と入力する
