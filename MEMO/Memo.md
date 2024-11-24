@@ -9,6 +9,7 @@
 - キャメルケース　(camelCase)
 - パスカルケース　(PascalCase)
 - スネークケース　(snake_case)
+- ケバブケース　　(kebab-case)
 
 ---
 
